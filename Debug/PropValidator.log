@@ -1,7 +1,13 @@
-﻿  PropValidator.cpp
-C:\Users\Wizard\source\repos\PropValidator\PropValidator.cpp(44,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Wizard\source\repos\PropValidator\PropValidator.cpp(49,39): warning C4018: '>': signed/unsigned mismatch
-C:\Users\Wizard\source\repos\PropValidator\PropValidator.cpp(74,29): warning C4129: ' ': unrecognized character escape sequence
-C:\Users\Wizard\source\repos\PropValidator\PropValidator.cpp(127,27): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Wizard\source\repos\PropValidator\PropValidator.cpp(253,23): warning C4018: '<': signed/unsigned mismatch
+﻿  main.cpp
+  Operator.cpp
+  Parser.cpp
+C:\Users\Wizard\source\repos\PropValidator\src\Parser.cpp(25,29): warning C4129: ' ': unrecognized character escape sequence
+C:\Users\Wizard\source\repos\PropValidator\src\Parser.cpp(51,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Wizard\source\repos\PropValidator\src\Parser.cpp(161,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Wizard\source\repos\PropValidator\src\Parser.cpp(168,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Wizard\source\repos\PropValidator\src\Parser.cpp(191,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Wizard\source\repos\PropValidator\src\Parser.cpp(215,23): warning C4018: '<': signed/unsigned mismatch
+  Prop.cpp
+C:\Users\Wizard\source\repos\PropValidator\src\Prop.cpp(45,23): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
   PropValidator.vcxproj -> C:\Users\Wizard\source\repos\PropValidator\Debug\PropValidator.exe

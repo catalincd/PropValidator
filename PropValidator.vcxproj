@@ -139,7 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="PropValidator.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\Operator.cpp" />
+    <ClCompile Include="src\Parser.cpp" />
+    <ClCompile Include="src\Prop.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Operator.h" />
+    <ClInclude Include="src\Parser.h" />
+    <ClInclude Include="src\Prop.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

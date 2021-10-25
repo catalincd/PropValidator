@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wizard\source\repos\PropValidator\src\</FILEPATH>
+      <FILENAME>Prop.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Prop::StartIndex' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Prop::{ctor}</FUNCTION>
+    <DECORATED>??0Prop@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Prop::StartIndex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wizard\source\repos\PropValidator\src\</FILEPATH>
+      <FILENAME>Prop.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Prop::EndIndex' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Prop::{ctor}</FUNCTION>
+    <DECORATED>??0Prop@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Prop::EndIndex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Wizard\source\repos\PropValidator\src\</FILEPATH>
+      <FILENAME>Prop.cpp</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>73</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'Operator' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>Prop::ComputeChildrenValues</FUNCTION>
+    <DECORATED>?ComputeChildrenValues@Prop@@QBE_NXZ</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
