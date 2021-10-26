@@ -8,7 +8,15 @@ Compile main.cpp and src/*.cpp
 Run /Debug/PropValidator.exe
 
 ## Usage
-PropValidator.o -m "P & Q | R"
+Input text from Command Line:
+```shell
+PropValidator.exe "P & Q | R"
+```
+
+Input from keyboard: "P & Q | R"
+```shell
+PropValidator.exe
+```
 
 ## Operators
 

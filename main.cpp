@@ -20,9 +20,16 @@ int main(int argc, char** argv)
 {   
     std::string input;
 
-    std::cout << "Input your proposition: ";
-
-    getline(std::cin, input);
+    if (argc > 1)
+    {
+        input = argv[1];
+    }
+    else
+    {
+        std::cout << "Input your proposition: ";
+        getline(std::cin, input);
+    }
+    
 
     Parser::ProcessText(input);
 
